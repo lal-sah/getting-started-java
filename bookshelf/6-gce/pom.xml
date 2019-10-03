@@ -45,9 +45,9 @@ Copyright 2016 Google Inc.
 
     <bookshelf.bucket>BUCKETNAME</bookshelf.bucket> <!-- bucket w/o gs:// -->
 
-    <callback.host></callback.host> <!-- Typically projectname.appspot.com -->
-    <bookshelf.clientID></bookshelf.clientID>             <!-- for User Authentication -->
-    <bookshelf.clientSecret></bookshelf.clientSecret> <!-- from g.co/cloud/console -->
+    <callback.host/> <!-- Typically projectname.appspot.com -->
+    <bookshelf.clientID/>             <!-- for User Authentication -->
+    <bookshelf.clientSecret/> <!-- from g.co/cloud/console -->
     <!-- Register in g.co/cloud/console -->
     <bookshelf.callback>https://${callback.host}/oauth2callback</bookshelf.callback>
     <!-- [END config] -->
@@ -128,7 +128,7 @@ Copyright 2016 Google Inc.
     <dependency>                        <!-- https://github.com/FasterXML/jackson-databind -->
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.9.5</version>
+      <version>2.10.0.pr1</version>
     </dependency>
 
     <dependency>                        <!-- Google Core Libraries for Java -->
