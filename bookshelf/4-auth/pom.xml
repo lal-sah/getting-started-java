@@ -112,7 +112,7 @@ Copyright 2016 Google Inc.
     <dependency>                        <!-- Google API client - for stuff that's not in gcloud-->
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client</artifactId>
-      <version>1.23.0</version>
+      <version>1.30.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.guava</groupId>
@@ -166,7 +166,7 @@ Copyright 2016 Google Inc.
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-admin</artifactId>
-      <version>5.9.0</version>
+      <version>6.15.0</version>
     </dependency>
 
     <!-- Test dependencies -->
