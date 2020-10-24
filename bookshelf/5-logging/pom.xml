@@ -134,7 +134,7 @@ Copyright 2016 Google Inc.
     <dependency>                        <!-- Google Core Libraries for Java -->
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>  <!-- https://github.com/google/guava/wiki -->
-      <version>23.0</version>
+      <version>r03</version>
     </dependency>
 
     <dependency>                        <!-- http://www.joda.org/joda-time/ -->
@@ -164,7 +164,7 @@ Copyright 2016 Google Inc.
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-admin</artifactId>
-      <version>5.9.0</version>
+      <version>6.15.0</version>
     </dependency>
 
     <!-- Test dependencies -->
