@@ -92,7 +92,7 @@ Copyright 2016 Google Inc.
       <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-server</artifactId>
-        <version>3.2.0</version>
+        <version>3.13.0</version>
         <scope>test</scope>
       </dependency>
       <!-- Selenium chokes without this, for some reason. -->
