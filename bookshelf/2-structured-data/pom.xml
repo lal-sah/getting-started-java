@@ -127,7 +127,7 @@ Copyright 2016 Google Inc.
     <dependency>                        <!-- http://dev.mysql.com/doc/connector-j/en/ -->
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>6.0.5</version>
+      <version>8.0.27</version>
     </dependency>
 
     <dependency>                        <!-- Apache Database Connection Pool API -->
@@ -139,7 +139,7 @@ Copyright 2016 Google Inc.
     <dependency>
       <groupId>com.google.cloud.sql</groupId>
       <artifactId>mysql-socket-factory-connector-j-6</artifactId>
-      <version>1.0.5</version>
+      <version>1.0.10</version>
     </dependency>
 
     <dependency>
