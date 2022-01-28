@@ -45,9 +45,9 @@ Copyright 2016 Google Inc.
 
     <bookshelf.bucket>BUCKETNAME</bookshelf.bucket> <!-- bucket w/o gs:// -->
 
-    <callback.host></callback.host> <!-- Typically projectname.appspot.com -->
-    <bookshelf.clientID></bookshelf.clientID>             <!-- for User Authentication -->
-    <bookshelf.clientSecret></bookshelf.clientSecret> <!-- from g.co/cloud/console -->
+    <callback.host/> <!-- Typically projectname.appspot.com -->
+    <bookshelf.clientID/>             <!-- for User Authentication -->
+    <bookshelf.clientSecret/> <!-- from g.co/cloud/console -->
     <!-- Register in g.co/cloud/console -->
     <bookshelf.callback>https://${callback.host}/oauth2callback</bookshelf.callback>
     <!-- [END config] -->
@@ -146,7 +146,7 @@ Copyright 2016 Google Inc.
     <dependency>                        <!-- http://dev.mysql.com/doc/connector-j/en/ -->
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>6.0.5</version>
+      <version>8.0.28</version>
     </dependency>
 
     <dependency>                        <!-- Apache Database Connection Pool API -->
@@ -158,7 +158,7 @@ Copyright 2016 Google Inc.
     <dependency>
       <groupId>com.google.cloud.sql</groupId>
       <artifactId>mysql-socket-factory-connector-j-6</artifactId>
-      <version>1.0.5</version>
+      <version>1.0.10</version>
     </dependency>
 
     <dependency>
