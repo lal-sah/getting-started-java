@@ -45,9 +45,9 @@ Copyright 2016 Google Inc.
 
     <bookshelf.bucket>BUCKETNAME</bookshelf.bucket> <!-- bucket w/o gs:// -->
 
-    <callback.host></callback.host> <!-- Typically projectname.appspot.com -->
-    <bookshelf.clientID></bookshelf.clientID>             <!-- for User Authentication -->
-    <bookshelf.clientSecret></bookshelf.clientSecret> <!-- from g.co/cloud/console -->
+    <callback.host/> <!-- Typically projectname.appspot.com -->
+    <bookshelf.clientID/>             <!-- for User Authentication -->
+    <bookshelf.clientSecret/> <!-- from g.co/cloud/console -->
     <!-- Register in g.co/cloud/console -->
     <bookshelf.callback>https://${callback.host}/oauth2callback</bookshelf.callback>
     <!-- [END config] -->
@@ -164,7 +164,7 @@ Copyright 2016 Google Inc.
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-admin</artifactId>
-      <version>5.9.0</version>
+      <version>6.15.0</version>
     </dependency>
 
     <!-- Test dependencies -->
